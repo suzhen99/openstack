@@ -5,6 +5,8 @@
 4. <kbd>Space</kbd>ks=https://github.com/suzhen99/openstack/raw/master/ks.cfg
 # 布署
 ```bash
+chown -R stack:stack /home/devstack
 /home/devstack/tools/create-stack-user.sh
+su - stack
 ./stack.sh
 ```
