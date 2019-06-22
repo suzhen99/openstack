@@ -8,5 +8,6 @@
 chown -R stack:stack /home/devstack
 /home/devstack/tools/create-stack-user.sh
 su - stack
+cd /home/devstack
 ./stack.sh
 ```
