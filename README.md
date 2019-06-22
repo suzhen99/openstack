@@ -1,3 +1,4 @@
+```bash
 systemctl disable NetworkManager
 cat > /etc/yum.repos.d/epel.repo <<EOF
 [epel]
@@ -57,3 +58,4 @@ sudo chown -R stack:stack /home/devstack
 cd /home/devstack
 wget https://github.com/suzhen99/openstack/raw/master/local.conf
 ./stack.sh
+```
