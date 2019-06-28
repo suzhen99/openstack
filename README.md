@@ -1,3 +1,14 @@
+# 虚拟机配置
+- 内存：`8GB`
+- 处理器：`2`
+- 硬盘：`500GB`
+- CD/DVD（SATA）：`rhel-server-7.6-x86_64-dvd.iso`
+- 网络适配器：`NAT`
+- 网络甜配器 2：`仅主机模式`
+- USB控制器：`存在`
+- 声卡：`自动检测`
+- 显示器：`自动检测`
+
 # 安装
 1. 光盘安装
 2. 选择`Install Red Hat Enterprise Linux 7.6`
