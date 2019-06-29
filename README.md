@@ -30,16 +30,16 @@ DevStack Component Timing
 =========================
 run_process           51
 test_with_retry        4
-pip_install          497
-osc                  160
-wait_for_service      22
-yum_install          545
-git_timed            380
+pip_install          499
+osc                  163
+wait_for_service      21
+yum_install          208
+git_timed            704
 dbsync                19
 -------------------------
-Unaccounted time     2992
+Unaccounted time     606
 =========================
-Total runtime        4670
+Total runtime        2275
 
 
 
@@ -59,8 +59,8 @@ For more information see:
 https://docs.openstack.org/devstack/latest/systemd.html
 
 DevStack Version: queens
-Change: 
+Change: e3100794d1615fc6b4216f54e2f7859a33d60b05 Fix installing tempest plugins 2019-06-17 22:30:22 +0000
 OS Version: RedHatEnterpriseServer 7.6 Maipo
 
-2019-06-22 16:55:30.083 | stack.sh completed in 4670 seconds.
+2019-06-29 01:18:57.383 | stack.sh completed in 2275 seconds.
 ```
