@@ -1,7 +1,8 @@
 # `VMware`虚拟机配置
 - 内存：`8GB`
 - 处理器：`2`
-- 硬盘：`500GB`
+- 硬盘(SCSI)：`500GB`
+- 新硬盘(SCSI)：`500GB`
 - CD/DVD（SATA）：`rhel-server-7.6-x86_64-dvd.iso`
 - 网络适配器：`NAT`
 - 网络甜配器 2：`仅主机模式`
