@@ -22,6 +22,7 @@ chown -R stack:stack /home/devstack
 su - stack
 cd /home/devstack
 ./stack.sh
+
 ```
 # 完成
 ```bash
