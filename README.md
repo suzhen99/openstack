@@ -17,6 +17,11 @@
 4. <kbd>Space</kbd>ks=https://github.com/suzhen99/openstack/raw/master/ks.cfg
 # 布署
 ```bash
+pip install --upgrade pip
+yum -y install \
+ftp://ftp.pbone.net/mirror/ftp5.gwdg.de/pub/opensuse/repositories/home:/lenovo-lico:/lico-dep:/Factory:/el7/el7/x86_64/{python2-cryptography-2.2.1-2.7.el7.x86_64.rpm,python2-cffi-1.11.5-2.6.el7.x86_64.rpm,python2-pycparser-2.18-7.14.el7.x86_64.rpm} \
+ftp://ftp.pbone.net/mirror/ftp5.gwdg.de/pub/opensuse/repositories/home:/lenovo-lico:/lico-dep:/Factory:/el7/el7/noarch/{python2-ipaddress-1.0.22-2.5.el7.noarch.rpm,python2-ply-3.11-1.5.el7.noarch.rpm}
+
 /home/devstack/tools/create-stack-user.sh
 chown -R stack:stack /home/devstack
 su - stack
